@@ -13,6 +13,7 @@
 		E27334181B496C4700C4F1DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E27334171B496C4700C4F1DA /* Images.xcassets */; };
 		E273341B1B496C4700C4F1DA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E27334191B496C4700C4F1DA /* LaunchScreen.xib */; };
 		E27334271B496C4800C4F1DA /* Reduction_FormulaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27334261B496C4800C4F1DA /* Reduction_FormulaTests.swift */; };
+		E2F148C11B90808800891B2D /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F148C01B90808800891B2D /* iAd.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		E27334201B496C4800C4F1DA /* Reduction FormulaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Reduction FormulaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E27334251B496C4800C4F1DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E27334261B496C4800C4F1DA /* Reduction_FormulaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reduction_FormulaTests.swift; sourceTree = "<group>"; };
+		E2F148C01B90808800891B2D /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2F148C11B90808800891B2D /* iAd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +62,7 @@
 		E27334021B496C4700C4F1DA = {
 			isa = PBXGroup;
 			children = (
+				E2F148C01B90808800891B2D /* iAd.framework */,
 				E273340D1B496C4700C4F1DA /* Reduction Formula */,
 				E27334231B496C4800C4F1DA /* Reduction FormulaTests */,
 				E273340C1B496C4700C4F1DA /* Products */,
@@ -342,9 +346,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "Reduction Formula/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -352,9 +359,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "Reduction Formula/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -411,6 +421,7 @@
 				E273342C1B496C4800C4F1DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E273342D1B496C4800C4F1DA /* Build configuration list for PBXNativeTarget "Reduction FormulaTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +430,7 @@
 				E273342F1B496C4800C4F1DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
