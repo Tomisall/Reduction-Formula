@@ -22,4 +22,4 @@ If you've been through such a course you will appreciate that getting an answer 
 This app sort to solves these issues. Simply select the point group, type in the reducible representation you have worked out, and the app will reduce it for you.
 
 ## To note:
-This is an iOS app I wrote back in 2015. It was one of my first apps. It did the job I needed it to back then. The code is now quite old and even when new it was never *elegant* to say the least. Also if I'm only calling the code 'not elegent' then I'm not sure what euphemism I could possibly use to describe the UI... Maybe one day I'll rewrite this app and rerelease it. Hopefully some users find it helpful.
+This is an iOS app I wrote back in 2015. It was one of my first apps. It did the job I needed it to back then. The code is now quite old and even when new it was never *elegant* to say the least. Also, if I'm only calling the code 'not elegent' then I'm not sure what euphemism I could possibly use to describe the UI... Maybe one day I'll rewrite and rerelease this app to fix these issues. Hopefully some users find it helpful.
